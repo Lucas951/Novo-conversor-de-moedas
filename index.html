@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Convesor de moedas</title>
+</head>
+
+<body>
+    <img src="./assets/converter.png" class="img-moeda-conversao">
+    <div class="principal">
+
+
+        <div class="convert">
+            Converter <b>de:</b>
+            <select class="selectt">
+
+                <label>
+                    Converter <b>de:</b>
+                    <option value="real">R$ Real Brasileiro</option>
+                    <option value="dolar">U$ Dolar</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">BTC Bitcoin</option>
+
+                </label>
+            </select>
+        </div>
+
+        <div class="convert">
+            Converter <b>para:</b>
+            <select class="selectt" id="selectt2">
+
+                <label>
+
+                    <option value="dolar">U$ Dolar</option>
+                    <option value="real">R$ Real Brasileiro</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">BTC Bitcoin</option>
+
+                </label>
+            </select>
+            <div>
+                Valor:
+                <input type="number" placeholder="Ex: 5000" class="entrada-do-dado">
+
+            </div>
+        </div>
+        <button>Converter</button>
+        <div class="convert-result">
+            <div>
+                <img src="./assets/brasil 2.png" id="bandeiras2">
+                <p class="moeda" id="nomeMoeda2">Real</p>
+                <p class="moeda-a-ser-convertida">R$ 0,0</p>
+            </div>
+            <div class="seta"><img src="./assets/Vector.png"></div>
+            <div>
+                <img src="./assets/eua.png" id="bandeiras">
+                <p class="moeda" id="nomeMoeda">Dolar</p>
+                <p class="moeda-convertida">U$ 0,0</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+</html>
