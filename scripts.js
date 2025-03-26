@@ -35,23 +35,6 @@ console.log(seletorDeMoeda.value)
     }
 
 
-    /*if(seletorDeMoeda.value == "dolar"){ // Quando o usuário escolher a moeda dolar, ele vai mudar o valor usando o number format e pegando o valor da entrada e 
-        moedaConvertida.innerHTML =  Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(inputValue / dolarToday.toFixed(2))
-    }
-
-   if(seletorDeMoeda.value == "euro"){
-        moedaConvertida.innerHTML = new Intl.NumberFormat('de-DE', {style: 'currency', currency: 'EUR'}).format(inputValue / euroToday)
-    }
-    if(seletorDeMoeda.value == "libra"){
-        moedaConvertida.innerHTML = new Intl.NumberFormat('en-GB', {style: 'currency', currency: 'GBP'}).format(inputValue / libraToday)
-    }
-    if(seletorDeMoeda.value =="bitcoin"){
-        moedaConvertida.innerHTML = new Intl.NumberFormat('en-US', {style: 'currency' , currency: 'BTC' , minimumFractionDigits: 8, maximumFractionDigits: 8}).format(inputValue / bitcoinToday)
-    }
-    if(seletorDeMoeda.value == 'real'){
-        moedaConvertida.innerHTML = new Intl.NumberFormat('pt-BR', {style: 'currency', currency:'BRL'}).format(inputValue * realToday)
-    }*/
-
 // convertendo de Dolar para qualquer outra moeda
 
    if(seletorDeMoeda2.value == 'dolar' && seletorDeMoeda.value == 'euro'){
